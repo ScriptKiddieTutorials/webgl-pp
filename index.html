@@ -1,0 +1,20 @@
+<!-- Rotating Cube Animation by Jeff -->
+
+<html>
+	<head>
+		<title>WebGL Rotating Cube Animation</title>
+	</head>
+	<h1>WebGL Rotating Cube Animation by Jeff</h1>
+	<body onload="InitDemo();">
+		<canvas id="screen" width="800" height="600">
+		</canvas>
+		<br />
+	<div class="slidecontainer">
+	  <b>X</b> -10<input type="range" min="-10" max="10" value="1" id="xRotationSpeedSlider">10<br>
+	  <b>Y</b> -10<input type="range" min="-10" max="10" value="0" id="yRotationSpeedSlider">10<br>
+	  <b>Z</b> -10<input type="range" min="-10" max="10" value="0" id="zRotationSpeedSlider">10<br>
+	</div>
+	<script src="gl-matrix.js"></script>
+	<script src="app.js"></script>
+	</body>
+</html>
